@@ -1,0 +1,24 @@
+.Encabezado{
+    background-color: lightsteelblue;
+    padding: 30px;
+}
+.Navegacion{
+    background-color: aqua;
+    padding: 30px;
+}
+.Contenedor{
+    background-color: bisque;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column: 2/5;
+}
+.Principal{
+    background-color: aquamarine;
+    padding: 30px;
+    grid-column: 1/2;
+}
+.Pie{
+    background-color: rgb(73, 48, 11);
+    padding: 30px;
+}
